@@ -1,0 +1,65 @@
+* {
+  box-sizing: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: #0f172a;
+  text-align: center;
+  margin: 14px;
+}
+.card-container {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  width: 80%;
+  padding: 16px;
+}
+.image {
+  height: 100px;
+  width: 100px;
+}
+.profile-name {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #1e293b;
+  text-align: center;
+}
+.institute-name {
+  font-family: "Roboto";
+  font-size: 12px;
+  text-align: center;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
+  .image {
+    width: 140px;
+    height: 140px;
+  }
+  .profile-name {
+    font-size: 20px;
+  }
+  .institute-name {
+    font-size: 20px;
+  }
+}
